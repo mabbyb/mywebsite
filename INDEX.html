@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>personal portforlio</title>
+  <!-- font styles -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;1,300;1,700;1,900&family=Montserrat:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/b064a570df.js" crossorigin="anonymous"></script>
+
+  <!-- BOOTSTRAP CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="styles.css">
+  <script src="javascript.js"></script>
+  <!-- javascript and popper bootstrap link -->
+  <!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script> -->
+
+</head>
+
+<body>
+  <div id="header">
+    <div class="container">
+      <nav>
+        <h1 class="logo" alt="logo-image" >MEEG</h1>
+        <ul>
+          <li><a href="#header">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#project">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="header-text">
+        <p>Python/Backend Developer</p>
+        <h1>Hi, I'm <span>Meeg.</span></h1>
+      </div>
+    </div>
+  </div>
+
+  <!-----About me section----->
+ <div id="about">
+  <div class="container">
+    <div class="row"> 
+      <div class="about-col-1">
+        <img src="images/IMG-0923.jpg" alt="picture of me" >
+      </div>
+      <div class="about-col-2">
+        <h1 class="sub-title">About Me</h1>
+        <p>I am an enthusiastic beginner/intermediate developer with a strong passion for learning and growing in the world of programming. With a focus on Python and backend development, i am dedicated to honing my skills and gaining hands-on experience. I enjoy tackling challenges, problem-solving, and collaborating with others to create innovative solutions. I am eager to expand my knowledge and contribute to projects that make a positive impact. Let's embark on this coding journey together!
+        </p>
+        
+        <div class="tab-titles">
+          <p class="tab-links" onclick="opentab('skills')">Skills</p>
+          <p class="tab-links" onclick="opentab('certifications and experience')">Certifications and Experience</p>
+          <p class="tab-links" onclick="opentab('education')">Education</p>
+        </div>
+        <div class="tab-contents active-tab" id="skills">
+          <ul>
+            <li><span>Html</span><br></li>
+            <li><span>Css</span><br></li>
+            <li><span>Javascript</span><br></li>
+            <li><span>Bootstrap</span><br></li>
+            <li><span>Python</span></li>
+            <li><span>Node.js</span></li>
+            <li><span>Express</span></li>
+            <li><span>MySQL</span></li>
+          </ul>
+        </div>
+        <div class="tab-contents" id="certifications and experience">
+          <ul>
+            <h2 class="certification-info">I worked in various field during my internship. I was exposed to different unit from working on Microsoft word to web development to data analysis , IT assistant specialist, worked on data extraction and mySQL</h2>
+            <li><span>Software Developer Intern(IT)</span><br>Zercom systems <br>July 2021 - October 2021</li>
+            <li><span>Software Developer Intern(IT)</span><br>Efuelite Solutions <br>August 2022 - November 2022</li>
+            <li><span>Responsive Web Design</span><br>Freecodecamp</li>
+            <li><span>100 Days of code: The Complete Python Pro</span><br>Udemy</li>
+            <li><span>the complete 2022 web development bootcamp</span><br>Udemy</li>
+            
+          </ul>
+        </div>
+        <div class="tab-contents" id="education">
+          <ul>
+            <li><span>Arthur Jarvis University</span><br>B.sc Computer Science <br>October 2019 - July 2023</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+ </div>
+
+ <!-- Projects -->
+ <div id="project">
+  <div class="container">
+    <h1 class="sub-title">Projects</h1>
+    <div class="project-list">
+      <div class="project-done">
+        <img src="images/dice-1804_128.gif" class="project-img" alt="dice-web-game">
+        <div class="layer">
+          <h3>Dice-Web-Game</h3>
+          <p>A dice game that is played between a player and a computer by refreshing your browser.</p>
+          <a href="https://bitbucket.org/mabbyb/sample_project/src/master/DICE%20GAME/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+      </div>
+      <div class="project-done">
+        <img src="images/2B7n.gif" class="project-img" alt="predict-lunch-game">
+        <div class="layer">
+          <h3>Predict-Lunch-Game</h3>
+          <p>A predict game that is played by users or colleauges to predict who will buy lunch .</p>
+          <a href="https://bitbucket.org/mabbyb/sample_project/src/master/predict%20Lunch/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+      </div>
+      <div class="project-done">
+        <img src="images/GKZz.gif" class="project-img" alt="Hangman-web-game">
+        <div class="layer">
+          <h3>Hangman Game</h3>
+          <p>A Hangman game that is played between a  player and other players by guessing a word game represented by dashes</p>
+          <a href="https://replit.com/@mabbyb/Day-7-Hangman-4-Start-1#main.py"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+      </div>
+      <div class="project-done">
+        <img src="images/7Psh.gif" class="project-img" alt="BlindAuction-web-game">
+        <div class="layer">
+          <h3>Blind Auction</h3>
+          <p>A Blind Auction game is an auction where bidders submit their bids without knowing the bids of other participants and the highest bidders win.</p>
+          <a href="https://bitbucket.org/mabbyb/sample_project/src/master/DICE%20GAME/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+      </div>
+      <div class="project-done">
+        <img src="images/74DD.gif" class="project-img" alt="Drum-kit-Game">
+        <div class="layer">
+          <h3>Drum-kit-Game</h3>
+          <p>A Drum-kit-Game virtual web that allows user to play and create music using a drum kit.</p>
+          <a href="https://bitbucket.org/mabbyb/sample_project/src/master/Drum%20Kit%20Starting%20Files/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+      </div>
+      <div class="project-done">
+        <img src="images/4F9e.gif" class="project-img" alt="Caesar Cipher Game-web-game">
+        <div class="layer">
+          <h3>Caesar Cipher Game</h3>
+          <p>Caesar Cipher Game that is played by encoding/decoding a message.</p>
+          <a href="https://replit.com/@mabbyb/caesar-cipher-2-start#main.py"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+        </div>
+        <div class="project-done">
+          <img src="images/higherlower.gif" class="project-img" alt="higherlower-game">
+          <div class="layer">
+            <h3>Higher-Lower Guessing Game</h3>
+            <p>A Higher-Lower game that allows players guess. It is an instagram highest following guessing demo game</p>
+            <a href="https://replit.com/@mabbyb/higher-lower-startmabel"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+      </div>
+      <div class="project-done">
+        <img src="images/calculator.jpg" class="project-img" alt="calculator-game">
+        <div class="layer">
+          <h3>Calculator Game</h3>
+          <p>A Calculator that performs arithmetic operations</p>
+          <a href="https://replit.com/@mabbyb/calculator-start#main.py"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+        </div>
+        <div class="project-done">
+          <img src="images/coming-soon-see-it-soon.gif" class="project-img" alt="coming-soon-image">
+          <div class="layer">
+            <h3>More improved updated project</h3>
+            <p>A Calculator that performs arithmetic operations</p>
+            <a href="https://replit.com/@mabbyb/calculator-start#main.py"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+    </div>
+    </div>
+    <a href="#" class="btn">See more</a>
+  </div>
+ </div>
+  </div>
+ </div>
+
+ <!-- Contact information -->
+ <div id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="contact-left">
+<h1 class="sub-title">Contact Me!</h1>
+<p><i class="fa-solid fa-paper-plane"></i>mabelessien02@gmail.com</p>
+<div class="social-icons">
+  <a href="linkedin.com/in/mabel-essien-06b2b7172"><i class="fa-brands fa-linkedin"></i></a>
+  <a href="mabelessien02@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+</div>
+<a href="images/Essien E Gloria (CV).docx" download class="btn btn2 cv">Download CV</a>
+
+      </div>
+      
+      <div class="contact-right">
+<form name="submit-to-google-sheet">
+  <input type="text" name="Name" placeholder="Your name" required>
+  <input type="email" name="email" placeholder="Your email" required>
+  <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+  <button type="submit" class="btn btn2">Submit</button>
+</form>
+<span id="msg"></span>
+      </div>
+    </div>
+  </div>
+
+ </div>
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
